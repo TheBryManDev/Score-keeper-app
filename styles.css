@@ -1,0 +1,89 @@
+body {
+  font-family: 'Score Board', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: teal;
+  color: black;
+}
+
+h1 {
+  color: teal;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 0;
+  width: fit-content;
+  height: fit-content;
+}
+
+.team {
+  color: white;
+  background-color: grey;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 50px;
+  box-shadow: 0px 0px 20px 2px;
+  border: 5px solid grey;
+}
+
+
+.score-section {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  width: 200px;
+  height: 150px;
+  background-color: teal;
+  border-radius: 5px;
+  margin: 40px 0 50px 0;
+  color: white;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.367)
+}
+
+
+
+button {
+  padding: 5px 15px;
+  font-size: 20px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 5px 1px;
+  font-family: 'score board', 'sans-serif';
+  cursor: pointer;
+  color: white;
+  background-color: grey;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  /* transition: all 0.5s ease-in-out; */
+  transform: scale(1.1)
+}
+
+.clear {
+  margin-top: -60px;
+}
